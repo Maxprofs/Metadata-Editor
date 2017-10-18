@@ -20,6 +20,6 @@ This desktop application is usable to edit the metadata properties of a video fi
 
 4. Finally the application applys changes to the video meta data properties.
 
-There is a small C++ application that works behind the JAVA application, which is the called ShellProperty developed by Matthew van Erde, this small app can be found in this link:  https://blogs.msdn.microsoft.com/matthew_van_eerde/2013/09/24/shellproperty-exe-v2-read-all-properties-on-a-file-set-properties-of-certain-non-vt_lpwstr-types/
+There is a small C++ application that works behind the JAVA application, which is the called ShellProperty developed by Matthew van Erde, this small app can be found in this link:  https://blogs.msdn.microsoft.com/matthew_van_eerde/2013/09/24/shellproperty-exe-v2-read-all-properties-on-a-file-set-properties-of-certain-non-vt_lpwstr-types/ . This C++ application makes the real work, it is the one which goes into the video files and use a C++ library called Active Template Library (ATL), to get and modify all the meta data properties that a video file in Windows OS is able to show.
     
     
