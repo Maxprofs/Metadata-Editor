@@ -8,7 +8,7 @@ This desktop application is usable to edit the metadata properties of a video fi
 
     - The format accepted by this software on the spreadsheet is the following:
 
-        - VIDEO NAME|TITLE|SUBTITLES|RATING|TAGS|COMMENTS|AUTHOR URL|PROMOTION URL
+        - VIDEO NAME | TITLE | SUBTITLES | RATING | TAGS | COMMENTS | AUTHOR URL | PROMOTION URL
 
         - It is strongly recommended to use this exact same format (exact same letters as well), in order for this software to run accordingly.
         
@@ -20,8 +20,6 @@ This desktop application is usable to edit the metadata properties of a video fi
 
 4. Finally the application applys changes to the video meta data properties.
 
-There is a small C++ application that works behind the JAVA application, which is the called ShellProperty developed by Matthew van Erde, this small app can be found here:
-
-    - https://blogs.msdn.microsoft.com/matthew_van_eerde/2013/09/24/shellproperty-exe-v2-read-all-properties-on-a-file-set-properties-of-certain-non-vt_lpwstr-types/
+There is a small C++ application that works behind the JAVA application, which is the called ShellProperty developed by Matthew van Erde, this small app can be found in this link:  https://blogs.msdn.microsoft.com/matthew_van_eerde/2013/09/24/shellproperty-exe-v2-read-all-properties-on-a-file-set-properties-of-certain-non-vt_lpwstr-types/
     
     
